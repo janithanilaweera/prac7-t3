@@ -1,18 +1,31 @@
 {
-  "name": "pactical4-t3",
+  "name": "sit725-2022-t3-prac4",
   "version": "1.0.0",
-  "description": "",
+  "description": "sit 725 week 4 prac",
   "main": "server.js",
   "scripts": {
-     "start": "node server.js"
+    "start": "node server.js"
   },
-  "repository": {"type": "git", "url": "git+https://github.com/janithanilaweera/pactical4-t3.git"},
-  "keywords": ["Express", "Node"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janithanilaweera/pactical4-t3.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
   "author": "janithanilaweera",
-  "license": "ISC",
-  "bugs": {"url": "https://github.com/janithanilaweera/pactical4-t3/issues"},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janithanilaweera/pactical4-t3/issues"
+  },
+  "homepage": "https://github.com/janithanilaweera/pactical4-t3#readme",
   "dependencies": {
-    "homepage": "https://github.com/janithanilaweera/pactical4-t3#readme",
-    "express": "^4.18.2"
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
   }
 }
