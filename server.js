@@ -29,9 +29,9 @@ app.use(cors());
 const mongoClient = require("mongodb").MongoClient;
 
 // add database connection
-//username: janitha
-//password: GVfy9OvEJ1yMbzfF
-//mongodb+srv://janitha:<password>@cluster0.pxyaxvc.mongodb.net/?retryWrites=true&w=majority
+   //username: janitha
+   //password: GVfy9OvEJ1yMbzfF
+
 const uri =
   "mongodb+srv://janitha:GVfy9OvEJ1yMbzfF@cluster0.pxyaxvc.mongodb.net/?retryWrites=true&w=majority";
 const client = new mongoClient(uri, { useNewUrlParser: true });
