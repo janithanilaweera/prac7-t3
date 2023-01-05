@@ -1,14 +1,15 @@
 {
-  "name": "sit725-2022-t3-prac4",
+  "name": "sit725-2022-t3-prac6",
   "version": "1.0.0",
   "description": "sit 725 week 4 prac",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janithanilaweera/pactical4-t3.git"
+    "url": "git+https://github.com/janithanilaweera/prac6-t3.git"
   },
   "keywords": [
     "Nodejs",
@@ -23,12 +24,15 @@
   "author": "janithanilaweera",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/janithanilaweera/pactical4-t3/issues"
+    "url": "https://https://github.com/janithanilaweera/prac6-t3.git/issues"
   },
-  "homepage": "https://github.com/janithanilaweera/pactical4-t3#readme",
+  "homepage": "https://https://github.com/janithanilaweera/prac6-t3.git#readme",
   "dependencies": {
+    "chai": "^4.3.7",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongodb": "^4.12.1"
+    "mocha": "^10.2.0",
+    "mongodb": "^4.12.1",
+    "request": "^2.88.2"
   }
 }
